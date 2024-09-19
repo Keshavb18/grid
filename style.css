@@ -23,10 +23,11 @@ body{
     border-radius: 10px;
 }
 
+
 .grid_items_1{
-    background-color: lightcoral;
+    background-color: grey;
     background-size: cover;
-    grid-area: 1/1/5/4;
+    grid-area: 1/1/6/4;
 }
 
 .grid_items_2{
@@ -80,8 +81,12 @@ body{
     grid-area: 8/8/13/11;
 }
 
+.grid_items_1_1{
+    background-color: lightcoral;
+    height: 70%;
+}
+
 .grid_items_10{
-    gap: 0;
     background-color: lightgreen;
-    grid-area: 4/1/6/4;
+    height: 30%;
 }
